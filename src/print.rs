@@ -14,6 +14,11 @@ pub fn run(){
         "Binary: {:b} and Hex: {:x} Octal: {:o}",10,10,10 
     );
 
+    ////Placeholeder for debug  traits
+     println!(
+    "{:?}",(12 ,true ,"hello") 
+);
+
 
 
 }
