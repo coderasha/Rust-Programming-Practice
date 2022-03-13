@@ -3,8 +3,8 @@ pub fn str() {
     let mut hello = String::from("Hello World");
 
      let welcome = String::from("Welcome to the future");
-let a:i32 = 435;
-let b:i32 = 984;
+let a:i32 = 110;
+let b:i32 = 130;
 println!(
     
     "sum={}", a+b);
