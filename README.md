@@ -36,4 +36,5 @@ fn main(){
 }
 
 **vector**
-its a module in rust that provides the container space to store values.In simple terms its a container that stores values like an array 
+its a module in rust that provides the container space to store values.In simple terms its a container that stores values like an array .
+Syntax- Vec<T>  ---T--> type of Data
