@@ -13,6 +13,7 @@ println!(
 
 hello.push_str(" with Ashadipta");
 println!("{}", hello);
+println!("contains word {}", hello.contains("with"));
 
 
 }
