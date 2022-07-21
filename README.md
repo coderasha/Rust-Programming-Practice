@@ -64,3 +64,21 @@ fn main() {
     println!("{ }",v.len());
 }
 The iter() method returns an iterator object of the collection. Values in an iterator object are called items. The next() method of the iterator can be used to traverse through the items.
+   
+   fn main() {
+
+let v = vec!["cat" ,"dog", "mew","bark"];
+// let mut v1:Vec<T> = Vec::new();
+// v1.push(27);
+// v1.push(28);
+// v1.push(29);
+
+// println!("{}", v[1]);
+// println!("{}", v1);
+
+for (index,c) in v.iter().enumerate(){
+println!("{} {} ", index,c);
+
+}
+}
+
