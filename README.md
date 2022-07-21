@@ -81,4 +81,18 @@ println!("{} {} ", index,c);
 
 }
 }
+   
+**Enum**
+   
+  ** COnstants**
+   Declared in Uppercase.and type declaration is mandatory.
+ const MAXIMUM_NUM: u8 = 50;
+   fn main(){
+   for i in 1..MAXIMUM_NUM{
+     if i%5==0{
+     println!("{}", i)
+   }
+   }
+
+   }
 
