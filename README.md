@@ -52,7 +52,7 @@ fn main() {
     // printing the size of vector
     println!("{ }",v.len());
 }
-   **2. Using macro in Rust: **
+** **2. Using macro in Rust: ****
 let v = vec!['G','E','E','K','S'];   
 Here this vector created using the macro vec!.  And it stores the value that we provide here which is char type.
 
@@ -63,3 +63,4 @@ fn main() {
     // printing the size of vector
     println!("{ }",v.len());
 }
+The iter() method returns an iterator object of the collection. Values in an iterator object are called items. The next() method of the iterator can be used to traverse through the items.
