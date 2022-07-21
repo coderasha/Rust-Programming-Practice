@@ -34,3 +34,6 @@ fn main(){
  let tup1 = (20,21,22);
  println!("the value at 2 is {}",tup1.2);
 }
+
+**vector**
+its a module in rust that provides the container space to store values.In simple terms its a container that stores values like an array 
