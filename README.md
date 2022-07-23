@@ -132,3 +132,9 @@ fn main()
    Ex if variable is X then its reference is created as &X
    Let x =10
    lwt xr= &x (reference to x)
+   
+   if we want to change the value of variable x, we can use mutable reference.
+   let x=10;
+   let dom = &mut x;
+   dom+=1;
+   println!({},dom);
