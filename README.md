@@ -122,3 +122,7 @@ fn main()
 
     }
  }
+   
+ **  Shadowing**
+    variable shadowing occurs when a variable declared within a certain scope  has the same name as a variable declared in an outer scope. 
+   This outer variable is said to be shadowed by the inner variable, while the inner identifier is said to mask the outer identifier.
