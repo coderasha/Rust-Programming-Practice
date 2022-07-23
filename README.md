@@ -126,3 +126,9 @@ fn main()
  **  Shadowing**
     variable shadowing occurs when a variable declared within a certain scope  has the same name as a variable declared in an outer scope. 
    This outer variable is said to be shadowed by the inner variable, while the inner identifier is said to mask the outer identifier.
+   
+**  Reference**
+   A reference to a variable can be used the same way as the actual variable.
+   Ex if variable is X then its reference is created as &X
+   Let x =10
+   lwt xr= &x (reference to x)
