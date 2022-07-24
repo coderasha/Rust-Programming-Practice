@@ -177,3 +177,52 @@ bg_color(&blue);
 fn bg_color(c:&Color){
  println!("background is R:{} B:{} G:{}", c.red, c.blue , c.green); 
 }
+   
+  ** Array**
+fn main() {
+
+    let arr_ye =[1,2,3,4,5,6];
+    for i in 0..arr_ye.len(){
+        println!("Hello, world! {}",arr_ye[i]);
+    }
+    
+}
+  ** Impl Keyword**
+   Used to add methods to a stuct to make it more useful.
+**Implementin Traits in Rust**
+   trait is just like interface. trait is basically what an object or a class or an object can do.
+   
+ struct Person{
+    name:String,
+   age:u8
+   }
+
+   impl ToString for Person{
+       fn to_string(&self) -> String{
+
+        return format!("The name is {} and age is {}", self.name ,self.age);
+       }
+
+   }
+
+   fn main(){
+   let per_det = Person{name:String::from("Asha"), age:21};
+   println!("{}", per_det.to_string());
+   
+   }
+   
+**   Read a File in RUST**
+   use std::fs::File;
+use std::io::prelude::*;
+fn main() {
+
+    let mut file = File::open("info.txt").expect("The file is not opening");
+    let mut contents = String::new();
+    file.read_to_string(&mut contents).expect("OOps!! It dodn't open");
+
+    println!("Hello, world! {}",contents);
+}
+Output - Hello, world! Ashadipta is a good boy
+   
+  ** Command Line Arguements in RUST**
+   
