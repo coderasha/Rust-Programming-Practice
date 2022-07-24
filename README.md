@@ -138,3 +138,18 @@ fn main()
    let dom = &mut x;
    dom+=1;
    println!({},dom);
+   
+  ** Struct**
+   
+   struct Color {
+      red:u8,
+     blue:u8,
+   green:u8,
+   }
+   
+   fn main(){
+   let bg = Color{Red:255 , Blue:10 , green:50};
+   println("{}{}{}", bg.red,bg.blue, bg.green);
+   
+   
+   }
