@@ -223,3 +223,6 @@ fn main() {
     println!("Hello, world! {}",contents);
 }
 Output - Hello, world! Ashadipta is a good boy
+   
+  ** Command Line Arguements in RUST**
+   
