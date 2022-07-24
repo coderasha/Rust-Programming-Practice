@@ -226,4 +226,15 @@ Output - Hello, world! Ashadipta is a good boy
    
   ** Command Line Arguements in RUST**
    Command-line arguments are given after the name of the program in command-line shell of Operating Systems.Command line arguments are nothing but simply arguments that are specified after the name of the program in the system's command line, and these argument values are passed on to your program during program execution.
+  use std::env;
+fn main() {
+
+    let args:Vec<String> = env::args().collect(); 
+
+    for arguements in args.iter(){
+
+        println!("Hello, world!{}",arguements);
+    }   
    
+}
+  
