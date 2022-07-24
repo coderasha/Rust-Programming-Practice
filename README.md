@@ -237,4 +237,14 @@ fn main() {
     }   
    
 }
+   
+   **Writing to a File**
+   use std::fs::File;
+use std::io::prelude::*;
+fn main() {
+
+    let mut file = File::create("output.txt").expect("The file is not opening");
+
+    file.write_all(b"How can I be successful").expect("error");
+}
   
