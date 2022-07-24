@@ -225,4 +225,5 @@ fn main() {
 Output - Hello, world! Ashadipta is a good boy
    
   ** Command Line Arguements in RUST**
+   Command-line arguments are given after the name of the program in command-line shell of Operating Systems.
    
