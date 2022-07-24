@@ -189,3 +189,5 @@ fn main() {
 }
   ** Impl Keyword**
    Used to add methods to a stuct to make it more useful.
+**Implementin Traits in Rust**
+   trait is just like interface.
