@@ -148,8 +148,8 @@ fn main()
    }
    
    fn main(){
-   let bg = Color{Red:255 , Blue:10 , green:50};
-   println("{}{}{}", bg.red,bg.blue, bg.green);
+   let bg = Color{red:255 , blue:10 , green:50};
+   println!("{}{}{}", bg.red,bg.blue, bg.green);
    
    
    }
