@@ -1,8 +1,26 @@
-fn main(){
-    let tup1 = (20,21,22);
-    let tup2 =(2, true, 6.5);
-    let tup3 =(1, 2 ,(7,8,9));
-    println!("the value at 2 for tup1 is {} and tup2 is {}",tup1.2, tup2.1);
-    println!("the value at 3 for tup3 is {} ",(tup3.2).2);
+// const MAXIMUM_NUM: u8 = 51;
+// fn main(){
+// for i in 1..MAXIMUM_NUM{
+//   if i%5==0{
+//   println!("{}", i)
+// }
+// }
 
-   }
+
+
+// }
+
+fn main() 
+ {
+
+ print_num(10)
+ }
+
+ fn print_num(n: u32){
+
+    for i in 1..n
+    {
+      print!("{}",i);
+
+    }
+ }

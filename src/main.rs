@@ -22,7 +22,7 @@ enum Direction {
 }
 
 fn main() {
- let player_direction:Direction = Direction::up;
+ let player_direction:Direction = Direction::down;
 
  match player_direction {
 
