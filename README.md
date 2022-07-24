@@ -177,3 +177,13 @@ bg_color(&blue);
 fn bg_color(c:&Color){
  println!("background is R:{} B:{} G:{}", c.red, c.blue , c.green); 
 }
+   
+  ** Array**
+fn main() {
+
+    let arr_ye =[1,2,3,4,5,6];
+    for i in 0..arr_ye.len(){
+        println!("Hello, world! {}",arr_ye[i]);
+    }
+    
+}
