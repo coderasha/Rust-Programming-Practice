@@ -251,4 +251,15 @@ fn main() {
 **
 Its like the RUST equivalent of a switch statement.its a conditional operator where u can do different things based on the value of a variable or an expression.
    
-   fn main()
+   fn main(){
+   
+   let x= 3;
+   match{
+     1=>println!("This is one"),
+    2=>println!("This is two"),
+    3=>println!("This is three),
+   }
+   
+   }
+   
+   Output- This is three
