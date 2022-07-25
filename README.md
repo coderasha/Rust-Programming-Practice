@@ -249,4 +249,6 @@ fn main() {
 }
  ** Match Operator in RUST
 **
-Its like the RUST equivalent of a switch statement.its a conditional operator where u can do different things 
+Its like the RUST equivalent of a switch statement.its a conditional operator where u can do different things based on the value of a variable or an expression.
+   
+   fn main()
