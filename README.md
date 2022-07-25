@@ -254,7 +254,7 @@ Its like the RUST equivalent of a switch statement.its a conditional operator wh
    fn main(){
    
    let x= 3;
-   match{
+   match x{
      1=>println!("This is one"),
     2=>println!("This is two"),
     3=>println!("This is three),
