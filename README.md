@@ -247,4 +247,5 @@ fn main() {
 
     file.write_all(b"How can I be successful").expect("error");
 }
-  
+ ** Match Operator in RUST
+**
