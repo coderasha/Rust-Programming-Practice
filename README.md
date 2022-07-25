@@ -263,3 +263,6 @@ Its like the RUST equivalent of a switch statement.its a conditional operator wh
    }
    
    Output- This is three
+   
+  ** Hash Maps**
+   A collection of key-value pairs
