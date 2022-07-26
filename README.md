@@ -1,5 +1,5 @@
 variable- snake-case
-Constants - UpperCase
+Constants - UpperCase...Constants can't be shadowed like variables.
 Struct- Camelcase
 
 
