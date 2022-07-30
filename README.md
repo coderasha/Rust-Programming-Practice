@@ -281,4 +281,16 @@ We can use threads to run codes simultaneously. In current operating systems, an
 
 Creating a Thread
 The thread::spawn function is used to create a new thread. The spawn function takes a closure as parameter. The closure defines code that should be executed by the thread. The following example prints some text from a main thread and other text from a new thread.
+   
+   The memory for a program can be allocated in the following −
+
+Stack
+Heap
+Stack
+A stack follows a last in first out order. Stack stores data values for which the size is known at compile time. For example, a variable of fixed size i32 is a candidate for stack allocation. Its size is known at compile time. All scalar types can be stored in stack as the size is fixed.
+
+Consider an example of a string, which is assigned a value at runtime. The exact size of such a string cannot be determined at compile time. So it is not a candidate for stack allocation but for heap allocation.
+
+Heap
+The heap memory stores data values the size of which is unknown at compile time. It is used to store dynamic data. Simply put, a heap memory is allocated to data values that may change throughout the life cycle of the program. The heap is an area in the memory which is less organized when compared to stack.
 
