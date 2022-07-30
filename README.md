@@ -271,3 +271,14 @@ Its like the RUST equivalent of a switch statement.its a conditional operator wh
    
   ** Hash Maps**
    A collection of key-value pairs
+   
+   **Concurrency**
+   
+   In Concurrent programming, different parts of a program execute independently. On the other hand, in parallel programming, different parts of a program execute at the same time. Both the models are equally important as more computers take advantage of their multiple processors.
+
+Threads
+We can use threads to run codes simultaneously. In current operating systems, an executed program’s code is run in a process, and the operating system manages multiple processes at once. Within your program, you can also have independent parts that run simultaneously. The features that run these independent parts are called threads.
+
+Creating a Thread
+The thread::spawn function is used to create a new thread. The spawn function takes a closure as parameter. The closure defines code that should be executed by the thread. The following example prints some text from a main thread and other text from a new thread.
+
