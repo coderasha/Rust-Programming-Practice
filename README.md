@@ -294,3 +294,7 @@ Consider an example of a string, which is assigned a value at runtime. The exact
 Heap
 The heap memory stores data values the size of which is unknown at compile time. It is used to store dynamic data. Simply put, a heap memory is allocated to data values that may change throughout the life cycle of the program. The heap is an area in the memory which is less organized when compared to stack.
 
+Rocket API
+
+import Rocket.
+rocket::ignite().mount{"/", router![hello].launch()}
