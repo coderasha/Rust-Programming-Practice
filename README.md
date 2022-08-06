@@ -344,8 +344,10 @@ rocket::ignite().mount{"/", router![hello].launch()}
    
    **Escape Sequence**
    fn main() {
+   println!("Ashad\"ipta");
     println!("Ashad\'ipta");
     println!("Ashad\ripta");
+   println!("Ashad\tipta");
 }
 
 
