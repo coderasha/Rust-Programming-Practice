@@ -318,3 +318,15 @@ rocket::ignite().mount{"/", router![hello].launch()}
    
   ** String Methods**
    used to check and modify the string
+   
+   fn main() {
+    let mut name = "Ashadipta".to_string();
+    let pupi = " Pati".to_string();
+    // let mut name1 = "Ashadipta".to_string();
+    name.push('p');
+
+    // let slic= name.chars().rev().collect::<String>();
+    // let add = format!("{}{}",name,pupi);
+    println!("{:?}",name);
+}
+
