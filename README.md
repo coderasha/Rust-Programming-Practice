@@ -315,3 +315,6 @@ rocket::ignite().mount{"/", router![hello].launch()}
    format! is used for both string literal and string object.
     println!("{:?}",slic);
 }
+   
+  ** String Methods**
+   used to check and modify the string
