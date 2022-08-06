@@ -328,5 +328,19 @@ rocket::ignite().mount{"/", router![hello].launch()}
     // let slic= name.chars().rev().collect::<String>();
     // let add = format!("{}{}",name,pupi);
     println!("{:?}",name);
+   
+   
+   fn main() {
+    let mut name = "Ashadipta".to_string();
+    let mut pupi = " Pati".to_string();
+    // let mut name1 = "Ashadipta".to_string();
+    name.push('p');
+    pupi.push_str(" will eat gelhu chanchi");
+
+    // let slic= name.chars().rev().collect::<String>();
+    // let add = format!("{}{}",name,pupi);
+    println!("{:?}",pupi);
+}
+
 }
 
