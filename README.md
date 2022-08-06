@@ -302,3 +302,10 @@ rocket::ignite().mount{"/", router![hello].launch()}
   ** Memory Management**
    
    Rust has its own memory management system and doesn't use a garbage collector. Golang,java,python etc use garbage collector.
+   
+  ** Reverse A String**
+   fn main() {
+    let name = "Ashadipta";
+    let slic= name.chars().rev().collect::<String>();
+    println!("{:?}",slic);
+}
