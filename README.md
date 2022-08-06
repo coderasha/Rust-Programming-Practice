@@ -307,5 +307,8 @@ rocket::ignite().mount{"/", router![hello].launch()}
    fn main() {
     let name = "Ashadipta";
     let slic= name.chars().rev().collect::<String>();
+   
+  ** Slice**
+   Subpart of a string
     println!("{:?}",slic);
 }
