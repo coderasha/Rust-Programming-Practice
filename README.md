@@ -355,6 +355,16 @@ rocket::ignite().mount{"/", router![hello].launch()}
 
  **  Match Statement **
    
-   fn main(){
-   
-   }
+  fn main() {
+    let m = 11;
+    match m{
+1 =>println!("One"),
+2=>println!("Tne"),
+
+3 | 4 | 5  =>println!("3,4,5"),
+6..=10 =>println!("upto10"),
+_ => println!("Default"),
+
+    }
+}
+
