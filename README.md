@@ -310,5 +310,8 @@ rocket::ignite().mount{"/", router![hello].launch()}
    
   ** Slice**
    Subpart of a string
+  ** String concatenation**
+   
+   format! is used for both string literal and string object.
     println!("{:?}",slic);
 }
