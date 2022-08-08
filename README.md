@@ -368,13 +368,13 @@ _ => println!("Default"),
     }
 }
  **  Loop**
-   fn main(){
-   let mut x = 1;
-      loop{
-   x+=1;
+fn main(){
+    let mut x = 1;
+       loop{
+    x+=1;
+    println!("{}",x);
+    
+    }
    
-   }
-   println!("{:?},x";
-   
-   }
-
+    
+    }
