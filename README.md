@@ -390,3 +390,32 @@ fn main(){
     
 }
 
+Break and Continue
+fn main() {
+  
+    // for i in (1..=100).rev(){
+        
+    //     println!("Hello, world!{}",i);
+    // }
+    let  mut i =1;
+    while i < 10{
+        
+        println!("mo. is {}",i);
+        i+=1;
+        if i==7{
+            
+            i+=1;
+            continue;
+            
+        }
+        
+           
+           
+       
+        
+        
+    }
+    
+}
+
+
