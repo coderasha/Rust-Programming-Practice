@@ -417,5 +417,12 @@ fn main() {
     }
     
 }
+                 
+**User Input**
+                fn main(){
+                 let line = String::new();
+                 
+                 println!("Enter Here")
+                 }
 
 
