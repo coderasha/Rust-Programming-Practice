@@ -420,9 +420,13 @@ fn main() {
                  
 **User Input**
                 fn main(){
-                 let line = String::new();
+                 let mut line = String::new();
                  
-                 println!("Enter Here")
+                 println!("Enter Here");
+                 
+                 let b1 = std::io::stdin.read_line(&mut line).unwrap();
+                 println!("Enter Here");
+                 
                  }
 
 
