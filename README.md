@@ -44,6 +44,8 @@ fn main(){
  let a:(int32,f32,char,bool) = (20,21.23,'a',true);
  println!("{:?}",a);
  println!("{:?}",a.1);
+  println!("{:?}",a.2);
+   println!("{:?}",a.3);
  
 }
 
