@@ -176,6 +176,9 @@ fn main()
    
    }
    
+   **Array**
+   Stores multiple values of single data type
+   
  // ** Pass By Reference**
  struct Color{
    red:u8,
