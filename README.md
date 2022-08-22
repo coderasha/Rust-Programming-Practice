@@ -513,6 +513,10 @@ fn main() {
     fn fn_return(x:i32)->i32{
         x*10
     }
+   
+   **Ownership**
+   Ownership is a set of rules which governs how RUSt program manages memory.
+   
                  
 
 
