@@ -466,5 +466,17 @@ fn main() {
     println!("sum is {}",sum);
     
     }
+   ** Printing Array using Loop **    
+                 
+                 fn main() {
+    let  arr=[3,6,8,23,45,2];
+    for i in arr.iter(){
+        print!("{:?} \n",i);
+       
+    }
+
+}
+
+                 
 
 
