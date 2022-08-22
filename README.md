@@ -492,5 +492,14 @@ fn main() {
          println!("{:?}",sum);
     }
                  
+   **Return statement in RUST**
+     fn main() {
+    println!("{:?}",fn_return(32));   
+    }
+
+    fn fn_return(x:i32)->i32{
+        x*10
+    }
+                 
 
 
