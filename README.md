@@ -517,6 +517,26 @@ fn main() {
    **Ownership**
    Ownership is a set of rules which governs how RUSt program manages memory.
    
+   **Recursive Function**
+   function that calls itself continuosly is called recursive function.
+   ex- to find factorial of 10 
+   fn fact(x:i32)->i32{
+ 
+    if x>1{
+     x*fact(x-1)
+    
+    }else{
+        x
+    }
+
+}
+
+fn main() {
+    
+        println!("{:?} ",fact(10));
+    } 
+   
+   
                  
 
 
