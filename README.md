@@ -483,6 +483,14 @@ fn main() {
 }
 ------------------------------
 **Function**
+                 fn main() {
+    add(5,5);   
+    }
+
+    fn add(x:i32,y:i32){
+        let sum = x+y;
+         println!("{:?}",sum);
+    }
                  
 
 
