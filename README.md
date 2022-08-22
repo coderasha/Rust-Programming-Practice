@@ -110,6 +110,8 @@ println!("{} {} ", index,c);
 }
    
 **Enum**
+   Its a custom data type.
+   We must use #[derive(debug)] for using enum
    
   ** COnstants**
    Declared in Uppercase.and type declaration is mandatory.
