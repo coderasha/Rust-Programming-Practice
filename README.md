@@ -14,8 +14,8 @@
    
    when we write a program ,its stored in RAM.then the program is executed and we "Run" it to get the o/p.
    Both stack memory and heap memory store data,but the way they are stored is different. 
-   Stack- Lifo,scalar types are stored in stack. Datat type size is known at compiler time.  
-   Heap- vector,tuple
+   **Stack**- Lifo,scalar types are stored in stack like char,string,integer. Datat type size is known at compiler time.  
+   **Heap**- vector,tuple. Size unknown in compiler time. Data value can be changed at any time in the program lifecycle.The data stored is less organised as compared to stack memory. So it is slow compared to stack.
    
    
 **Infinite Loop**
