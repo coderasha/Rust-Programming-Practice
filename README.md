@@ -551,7 +551,7 @@ fn main() {
    
    **Closures**
    
-   its a type of function and it has less syntax.
+   its like function and it has less syntax.
    
    
                  
