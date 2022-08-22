@@ -536,6 +536,8 @@ fn main() {
         println!("{:?} ",fact(10));
     } 
    
+  ** Data Size convertion in RUSt**
+   
    
                  
 
