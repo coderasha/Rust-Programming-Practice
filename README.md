@@ -1,6 +1,6 @@
-variable- snake-case
-Constants - UpperCase...Constants can't be shadowed like variables.
-Struct- Camelcase
+**variable/Function**- snake-case
+**Constants** - UpperCase...Constants can't be shadowed like variables.
+**Struct**- Camelcase
 
 
 **##Rust Theories**
