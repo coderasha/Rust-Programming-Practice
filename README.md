@@ -553,6 +553,9 @@ fn main() {
    
    its like function and it has less syntax.
    
+   **Methods**
+   Methods are function made for a structure.
+   
    
                  
 
