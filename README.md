@@ -555,6 +555,10 @@ fn main() {
    
    **Methods**
    Methods are function made for a structure.
+   It is declared with fn keyword.
+   the scope of a method is wirthinn structure block.
+   Methods are declared outside a structure block.
+   **impl** keyword is used to define a method in the context of a structure.
    
    
                  
