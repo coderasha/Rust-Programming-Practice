@@ -538,6 +538,17 @@ fn main() {
    
   ** Data Size convertion in RUSt**
    
+   can convert i32 to i64,i128,u64,u128. CAnnot convert i32 to f32.
+   
+    use std::convert::TryInto;
+   fn num(x:u32){
+   println!("{:?}",x);
+   }
+   fn main(){
+   num(100i64.try_into().unwrap());
+   
+   }
+   
    
                  
 
