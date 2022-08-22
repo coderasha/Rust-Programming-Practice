@@ -8,6 +8,15 @@
    In order to change the value and make it mutable we should use "mut" keyword for the variable 
    Ex- Let mut x = 30;
    
+   **Memory and Storage**
+   Memory is where datas are stored temporarily,whereas in Storage ,the data is stored for long time.
+   memory is RUSt is either Satck memory or heap memory which is used to store datas.
+   
+   when we write a program ,its stored in RAM.then the program is executed and we "Run" it to get the o/p.
+   Stack- Lifo,scalar types are stored in stack
+   Heap- vector,tuple
+   
+   
 **Infinite Loop**
    
 fn main(){
