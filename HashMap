@@ -1,0 +1,18 @@
+use std::collections::HashMap;
+ 
+fn main() {
+ 
+// initialize the HashMap
+// mut means we can reassign to something else
+let mut gfg=HashMap::new();
+   
+// inserting records 
+gfg.insert("Data Structures","90");
+gfg.insert("Algorithms","99");
+gfg.insert("IP","100");
+gfg.insert("FAANG","97");
+gfg.insert("CP","99");
+   
+// for printing all the records "{:?}" this is must
+println!("{:?}",gfg );
+}
