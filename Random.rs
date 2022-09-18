@@ -7,7 +7,7 @@ let mut number  = rnad::random::<f64>();
 
 }
   
-  in Cargo.toml insert rand = "0,8.4"
+  in Cargo.toml insert rand = "0.8.4"
 
 ------------------------------------------------------
 
