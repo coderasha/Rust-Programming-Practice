@@ -2,7 +2,7 @@
 use rand::random;
 
 fn main(){
-let mut number  = rnad::random::<f64>();
+let mut number  = rand::random::<f64>(); // let mut number:f64  = rand::random();
   println!("{:?}",number);
 
 }
