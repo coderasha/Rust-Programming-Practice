@@ -10,5 +10,11 @@ struct Person{
        }
 
    }
+//
+fn main(){
+   let per_det = Person{name:String::from("Asha"), age:21};
+   println!("{}", per_det.to_string());
+   
+   }
 
    
